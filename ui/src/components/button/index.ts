@@ -1,1 +1,3 @@
-export { default as Button } from "./button.svelte";
+import { z } from "zod";
+
+export const foo = z.object({ bar: z.string() });

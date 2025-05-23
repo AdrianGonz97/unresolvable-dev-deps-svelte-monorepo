@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { Button } from "@workspace/ui/components/button/index.js";
+	import { foo } from "@workspace/ui/components/button/index.js";
+
+	const parsed = foo.parse({ bar: "baz" });
 </script>
 
-<Button>foo</Button>
+Look Pa, it's zod! {parsed}
