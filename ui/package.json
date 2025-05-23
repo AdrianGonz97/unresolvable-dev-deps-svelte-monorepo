@@ -6,14 +6,6 @@
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
 	},
-	"files": [
-		"src",
-		"!src/**/*.test.*",
-		"!src/**/*.spec.*"
-	],
-	"sideEffects": [
-		"**/*.css"
-	],
 	"type": "module",
 	"exports": {
 		"./components/*": "./src/components/*"
