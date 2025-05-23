@@ -4,4 +4,4 @@
 	const parsed = foo.parse({ bar: "baz" });
 </script>
 
-Look Pa, it's zod! {JSON.stringify(parsed)}
+Look Pa, it's Zod as a devDep! {JSON.stringify(parsed)}
