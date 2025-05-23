@@ -1,0 +1,30 @@
+{
+	"name": "@workspace/ui",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"files": [
+		"src",
+		"!src/**/*.test.*",
+		"!src/**/*.spec.*"
+	],
+	"sideEffects": [
+		"**/*.css"
+	],
+	"type": "module",
+	"exports": {
+		"./components/*": "./src/components/*"
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0"
+	},
+	"devDependencies": {
+		"@lucide/svelte": "^0.511.0",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.0",
+		"typescript": "^5.0.0"
+	}
+}

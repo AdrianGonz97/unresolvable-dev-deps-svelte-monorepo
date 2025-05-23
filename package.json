@@ -1,0 +1,13 @@
+{
+	"name": "unresolvable-dev-deps-svelte-monorepo",
+	"version": "0.0.0",
+	"packageManager": "pnpm@10.9.0",
+	"scripts": {
+		"dev": "pnpm -F app dev"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	}
+}
