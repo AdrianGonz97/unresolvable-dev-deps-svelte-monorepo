@@ -1,0 +1,20 @@
+{
+	"name": "broken",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./src/index.ts",
+			"svelte": "./src/index.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0"
+	},
+	"devDependencies": {
+		"@lucide/svelte": "^0.511.0",
+		"svelte": "^5.0.0",
+		"typescript": "^5.0.0"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "working",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./src/index.ts",
+			"svelte": "./src/index.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0"
+	},
+	"devDependencies": {
+		"zod": "^3",
+		"svelte": "^5.0.0",
+		"typescript": "^5.0.0"
+	}
+}

@@ -14,8 +14,9 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/kit": "^2.16.0",
-		"@sveltejs/vite-plugin-svelte": "^5.0.0",
-		"@workspace/ui": "workspace:*",
+		"@sveltejs/vite-plugin-svelte": "file:../../../Clones/vite-plugin-svelte/packages/vite-plugin-svelte",
+		"working": "workspace:*",
+		"broken": "workspace:*",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",

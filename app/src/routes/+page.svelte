@@ -1,5 +1,9 @@
 <script lang="ts">
-	import { Button } from "@workspace/ui/components/button/index.js";
+	import { BrokenButton } from "broken";
+	import { WorkingButton } from "working";
 </script>
 
-<Button>foo</Button>
+<!-- uncomment this and the import to break -->
+<BrokenButton>Transitive Svelte Dev Dep</BrokenButton>
+
+<WorkingButton>Transitive JS only Dep is Working</WorkingButton>
